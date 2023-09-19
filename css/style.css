@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+
+
+header{
+    padding: 1px 0px 0px 10px;
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+    
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.container{
+    width: 1920px;
+  margin: auto;
+}
+
+.logo {
+
+width: 50%;
+float: left;
+}
+.logo img {
+    padding: 18px;
+    margin: 8px 150px 0px 0px;
+}
+
+nav {
+    width: 50%;
+    float: left;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 40px 40px 0px 20px;
+    list-style: none;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px; 
+}
+nav ul li a{
+    
+        text-decoration: none;
+        color: rgb(60 80 107);
+        font-size: 22px;
+        font-weight: 900;
+}
+/* banner */
+.banner{
+    text-align: center;
+    color:  rgb(60 80 107);
+    margin: 150px 0px;
+}
+h1{
+    font-size: 70px;
+}
+.banner span {
+    color: #1e68fa;
+}
+.banner p{
+    font-size: 25px;
+}
+.banner img {
+    width: 50%;
+    margin: 60px;
+}
+/* completed project */
+.projects {
+    width: 50%;
+    float: left;
+}
+.project-left {
+    text-align: right;
+    padding: 0 25px 0 0;
+
+}
+.project-left h2 {
+    color: red;
+    font-size: 65px;
+
+}
+.project-left p {
+    color: rgb(60 80 107);
+    font-size: 22px;
+
+}
+
+.project-right {
+    padding: 0 0 0 25px;
+    
+
+}
+.project-right h2 {
+    color:  rgb(60 80 107);
+    font-size: 65px;
+
+}
